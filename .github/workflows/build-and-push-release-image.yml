@@ -4,7 +4,7 @@ on:
   push:
     branches:
       # Run on pushing branches like 'v1.0.0', 'v0.22.2rc'
-      - "v*"
+      - "release/*.*.*"
   workflow_dispatch:
 
 jobs:
